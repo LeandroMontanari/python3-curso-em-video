@@ -1,4 +1,4 @@
-print('====== DESAFIO 03 ======')
+print('====== DESAFIO 003.1 ======')
 n1 = int(input('Primeiro número: '))
 n2 = int(input('Segundo número: '))
 re = n1 + n2
