@@ -1,5 +1,5 @@
-# Python 3 - Curso em Vídeo
+# Python 3 - Curso em VÃ­deo
 
-Códigos, Exercícios e Desafios do Curso de Python 3 do Canal Curso em Vídeo
+### CÃ³digos, ExercÃ­cios e Desafios do Curso de Python 3 do Canal Curso em VÃ­deo
 
-Link: https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
+Link: http://www.cursoemvideo.com/course/curso-python-3/
