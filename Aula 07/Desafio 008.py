@@ -1,4 +1,3 @@
-print('====== DESAFIO 008 ======')
 n = int(input('Digite o valor em metros: '))
 cm = n * 100
 mm = n * 1000

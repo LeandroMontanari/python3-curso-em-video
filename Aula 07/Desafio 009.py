@@ -1,4 +1,3 @@
-print('====== DESAFIO 009 ======')
 n = int(input('Digite um número: '))
 print('A tabuada de {} é:\n'.format(n))
 print('{} x 1 = {}'.format(n, n * 1))

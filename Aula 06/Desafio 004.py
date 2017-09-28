@@ -1,4 +1,3 @@
-print('====== DESAFIO 004 ======')
 n = input('Digite algo: ')
 print(n.isnumeric()) # Verifica se o que foi digitado é ou pode se tornar um valor numérico; retorna True se sim
 print(n.isalpha()) # Verifica se o que foi digitado é uma letra ou contém apenas letras; retorna True se sim

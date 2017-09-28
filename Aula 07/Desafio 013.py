@@ -1,4 +1,3 @@
-print('====== DESAFIO 013 ======')
 s = float(input('Qual é o salário do funcionário? '))
 a = s * 0.15
 r = s + a

@@ -1,4 +1,3 @@
-print('====== DESAFIO 011 ======')
 l = float(input('Digite a largura da parede, em metros: '))
 a = float(input('Digite a altura da parede, em metros: '))
 t = 2

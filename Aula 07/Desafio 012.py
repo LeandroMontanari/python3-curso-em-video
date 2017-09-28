@@ -1,4 +1,3 @@
-print('====== DESAFIO 012 ======')
 p = float(input('Qual é o preço do produto? '))
 d = p * 0.05
 r = p - d
