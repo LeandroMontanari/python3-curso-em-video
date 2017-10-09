@@ -1,8 +1,8 @@
-'''
+"""
 EXERCÍCIO 008: Conversor de Medidas
 
 Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
-'''
+"""
 medida = float(input('Uma distância em metros: '))
 km = medida / 1000
 hm = medida / 100
