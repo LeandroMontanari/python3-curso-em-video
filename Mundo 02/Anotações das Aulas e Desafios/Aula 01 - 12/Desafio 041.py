@@ -14,7 +14,7 @@ elif idade <= 14:
     print('O atleta de {} anos vai ficar na categoria INFANTIL!'.format(idade))
 elif idade <= 19:
     print('O atleta de {} anos vai ficar na categoria JUNIOR!'.format(idade))
-elif idade <= 20:
+elif idade <= 25:
     print('O atleta de {} anos vai ficar na categoria SÊNIOR!'.format(idade))
-elif idade > 20:
+elif idade > 25:
     print('O atleta de {} anos vai ficar na categoria MASTER!'.format(idade))
