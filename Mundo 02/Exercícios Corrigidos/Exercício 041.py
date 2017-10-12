@@ -1,5 +1,5 @@
 """
-EXERCÍCIO 041: Classificação de Atletas
+EXERCÍCIO 041: Classificando Atletas
 
 A Confederação Nacional de Natação precisa de um programa que leia o ano
 de nascimento de um atleta e mostre sua categoria, de acordo com a idade:
