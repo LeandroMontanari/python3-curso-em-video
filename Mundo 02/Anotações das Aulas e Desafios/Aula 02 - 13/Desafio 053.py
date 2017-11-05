@@ -52,9 +52,6 @@ for caractere in substituicoes:
 
 frase_final_invertida = frase_final[::-1]
 
-print(frase_final)
-print(frase_final_invertida)
-
 if frase_final == frase_final_invertida:
     print('\n"{}" é um palíndromo.'.format(frase))
 else:
