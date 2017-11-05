@@ -1,40 +1,58 @@
-contador = 0
-pali = 0
-f = str(input('Digite um frase: '))
-ff = f.lower().strip().replace(' ', '')
+frase = str(input('Digite uma frase: ')).replace('"', '').replace("'", "").capitalize()
+frase_formatada = frase.lower().strip().replace(' ', '')
+frase_final = frase_formatada
 
-ff = ff.replace('á', 'a')
-ff = ff.replace('à', 'a')
-ff = ff.replace('ã', 'a')
-ff = ff.replace('â', 'a')
-ff = ff.replace('é', 'e')
-ff = ff.replace('ê', 'e')
-ff = ff.replace('í', 'i')
-ff = ff.replace('ó', 'o')
-ff = ff.replace('õ', 'o')
-ff = ff.replace('ú', 'u')
-ff = ff.replace('ç', 'c')
-ff = ff.replace('"', '')
-ff = ff.replace("'", "")
-ff = ff.replace(',', '')
-ff = ff.replace('.', '')
-ff = ff.replace('!', '')
-ff = ff.replace(';', '')
-ff = ff.replace(':', '')
-ff = ff.replace('?', '')
-ff = ff.replace('-', '')
-ff = ff.replace('_', '')
+substituicoes = {
+    'á': 'a',
+    'à': 'a',
+    'ã': 'a',
+    'â': 'a',
+    'é': 'e',
+    'ê': 'e',
+    'í': 'i',
+    'ó': 'o',
+    'õ': 'o',
+    'ô': 'o',
+    'ú': 'u',
+    'ü': 'u',
+    'ç': 'c',
+    '"': '',
+    "'": "",
+    ',': '',
+    '.': '',
+    '!': '',
+    ';': '',
+    ':': '',
+    '?': '',
+    '-': '',
+    '_': '',
+    '(': '',
+    ')': '',
+    'º': '',
+    '<': '',
+    '>': '',
+    '@': '',
+    '#': '',
+    '$': '',
+    '%': '',
+    '*': '',
+    '+': '',
+    '=': '',
+    '[': '',
+    ']': '',
+    '{': '',
+    '}': '',
+    '&': '',
+    '/': '',
+    '\\': ''
+    }
 
-tff = len(ff)
+for caractere in substituicoes:
+    frase_final = frase_final.replace(caractere, substituicoes[caractere])
 
-for i in ff:
-    contador += 1
-    if i == ff[tff - contador:tff - contador + 1]:
-        pali += 1
-    else:
-        pali = 0
+frase_final_invertida = frase_final[::-1]
 
-if tff == pali:
-    print('"{}" é um palíndromo.'.format(f))
+if frase_final == frase_final_invertida:
+    print('\n"{}" é um palíndromo.'.format(frase))
 else:
-    print('"{}" não é um palíndromo.'.format(f))
+    print('\n"{}" não é um palíndromo.'.format(frase))
