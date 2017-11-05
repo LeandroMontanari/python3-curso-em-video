@@ -1,7 +1,3 @@
-frase = str(input('Digite uma frase: ')).replace('"', '').replace("'", "").capitalize()
-frase_formatada = frase.lower().strip().replace(' ', '')
-frase_final = frase_formatada
-
 substituicoes = {
     'á': 'a',
     'à': 'a',
@@ -46,6 +42,9 @@ substituicoes = {
     '/': '',
     '\\': ''
     }
+
+frase = str(input('Digite uma frase: ')).replace('"', '').replace("'", "").capitalize()
+frase_final = frase.lower().strip().replace(' ', '')
 
 for caractere in substituicoes:
     frase_final = frase_final.replace(caractere, substituicoes[caractere])
