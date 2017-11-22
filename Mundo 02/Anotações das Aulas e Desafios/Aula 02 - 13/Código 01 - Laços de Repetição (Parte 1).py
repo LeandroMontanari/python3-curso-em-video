@@ -1,7 +1,6 @@
 """
-NOMES:
-Laço de Repetição/Iteração
-Laço com Variável de Controle
+NOME:
+Estrutura de Repetição com Variável de Controle
 
 
 EXEMPLOS DIDÁTICOS:
