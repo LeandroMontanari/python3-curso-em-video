@@ -1,6 +1,6 @@
 # Curso de Python 3 - Canal Curso em Vídeo
 
-### Anotações das Aulas, Desafios e Exercícios Corrigidos
+### Anotações das Aulas, Desafios Resolvidos e Exercícios Corrigidos
 
 Mundo 1 - Fundamentos: http://www.cursoemvideo.com/course/curso-python-3/
 
