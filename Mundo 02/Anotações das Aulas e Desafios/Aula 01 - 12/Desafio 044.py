@@ -1,3 +1,14 @@
+"""
+DESAFIO 044: Gerenciador de Pagamentos
+
+Elabore um programa que calcule o valor a ser pago de um produto,
+considerando o seu preço normal, e condição de pagamento:
+
+- À vista no dinheiro/cheque: 10% de desconto
+- À vista no cartão: 5% de desconto
+- Em até 2x no cartão: preço normal
+- 3x ou mais no cartão: 20% de juros
+"""
 produto = float(input('Qual é o preço normal do produto? R$ '))
 print('Qual será o método de pagamento?')
 print('Para pagamento à vista em dinheiro/cheque (10% de desconto), digite 1.')

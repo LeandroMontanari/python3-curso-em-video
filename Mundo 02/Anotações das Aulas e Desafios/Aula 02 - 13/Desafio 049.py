@@ -1,3 +1,9 @@
+"""
+DESAFIO 049: Tabuada v2.0
+
+Refaça o DESAFIO 009, mostrando a tabuada de um número que
+o usuário escolher, só que agora utilizando um laço for.
+"""
 msg = 'Digite um número para fazer a tabuada desde o 1 até ele (ex: 10 para fazer a tabuada do 1 até o 10): '
 n = int(input(msg))
 print()

@@ -1,3 +1,8 @@
+"""
+DESAFIO 032: Ano Bissexto
+
+Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.
+"""
 ano = int(input('Digite um ano (ex: 1997): '))
 tam = len(str(ano)) # Atribui à variável "tam" a quantidade de caracteres que tem o ano digitado
 if ano % 4 == 0: # Verifica se o resto da divisão por 4 do ano digitado é igual a 0

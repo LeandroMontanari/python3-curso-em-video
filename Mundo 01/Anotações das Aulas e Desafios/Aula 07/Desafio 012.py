@@ -1,3 +1,8 @@
+"""
+DESAFIO 012: Calculando Descontos
+
+Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+"""
 p = float(input('Qual é o preço do produto? '))
 d = p * 0.05
 r = p - d

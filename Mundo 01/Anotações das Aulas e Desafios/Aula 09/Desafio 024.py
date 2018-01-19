@@ -1,3 +1,8 @@
+"""
+DESAFIO 024: Verificando as Primeiras Letras de um Texto
+
+Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "SANTO".
+"""
 cidade = input('Digite o nome da cidade: ')
 cl = cidade.upper().strip().split()
 res = cl[0] == 'SANTO'

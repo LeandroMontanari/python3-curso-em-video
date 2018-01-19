@@ -1,3 +1,12 @@
+"""
+DESAFIO 026: Primeira e Última Ocorrência de uma String
+
+Faça um programa que leia uma frase pelo teclado e mostre:
+
+> Quantas vezes aparece a letra "A".
+> Em que posição ela aparece a primeira vez.
+> Em que posição ela aparece a última vez.
+"""
 frase = input('Digite uma frase: ').upper().strip()
 qtd = frase.count('A')
 pos1 = frase.find('A')+1

@@ -1,3 +1,8 @@
+"""
+DESAFIO 053: Detector de Palíndromo
+
+Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
+"""
 acentos = {'á': 'a', 'à': 'a', 'ã': 'a', 'â': 'a', 'é': 'e', 'ê': 'e', 'í': 'i',
            'ó': 'o', 'õ': 'o', 'ô': 'o', 'ú': 'u', 'ü': 'u', 'ç': 'c', "'": ""}
 
