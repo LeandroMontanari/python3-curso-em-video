@@ -9,21 +9,21 @@
 frase = 'Curso em Vídeo Python'
 frase2 = '   Aprenda Python  '
 
-print(frase.replace('Python', 'Android')) # Exibe a string com um termo existente substituído por outro
-print(frase.upper()) # Exibe a string toda em letras maiúsculas
-print(frase.lower()) # Exibe a string toda em letras minúsculas
-print(frase.capitalize()) # Exibe a string capitalizada (com apenas o primeiro caractere da frase em letra maiúscula)
-print(frase.title()) # Exibe a string estilo título (com o primeiro caractere de cada palavra em letra maiúscula)
-print(frase) # A string original não foi alterada permanentemente por nenhum dos comandos utilizados acima
+print(frase.replace('Python', 'Android'))  # Exibe a string com um termo existente substituído por outro
+print(frase.upper())  # Exibe a string toda em letras maiúsculas
+print(frase.lower())  # Exibe a string toda em letras minúsculas
+print(frase.capitalize())  # Exibe a string capitalizada (com apenas o primeiro caractere da frase em letra maiúscula)
+print(frase.title())  # Exibe a string estilo título (com o primeiro caractere de cada palavra em letra maiúscula)
+print(frase)  # A string original não foi alterada permanentemente por nenhum dos comandos utilizados acima
 
-print('') # Linha em branco para separar os comandos direcionados a cada string
+print('')  # Linha em branco para separar os comandos direcionados a cada string
 
-print(frase2.strip()) # Remove todos os espaços excedentes da string
-print(frase2.rstrip()) # Remove os espaços excedentes apenas do lado direito da string (inclusão do "r" no comando)
-print(frase2.lstrip()) # Remove os espaços excedentes apenas do lado esquerdo da string (inclusão do "l" no comando)
-print(frase2) # Novamente, a string original não foi alterada permanentemente por nenhum dos comandos utilizados acima
+print(frase2.strip())  # Remove todos os espaços excedentes da string
+print(frase2.rstrip())  # Remove os espaços excedentes apenas do lado direito da string (inclusão do "r" no comando)
+print(frase2.lstrip())  # Remove os espaços excedentes apenas do lado esquerdo da string (inclusão do "l" no comando)
+print(frase2)  # Novamente, a string original não foi alterada permanentemente por nenhum dos comandos utilizados acima
 
-print('') # Linha em branco
+print('')  # Linha em branco
 
-frase = frase.replace('Python', 'Android') # Desta forma sim, a string original é substituída permanentemente
-print(frase) # Exibe a string original já com as modificações feitas acima
+frase = frase.replace('Python', 'Android')  # Desta forma sim, a string original é substituída permanentemente
+print(frase)  # Exibe a string original já com as modificações feitas acima

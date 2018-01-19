@@ -50,7 +50,7 @@ b = 5
 print('Os valores são \033[1;31m{} em vermelho e negrito\033[m e \033[1;33m{} em amarelo e negrito\033[m'.format(a, b))
 
 nome = 'Guanabara'
-print('Olá, {}{}{}!'.format('\033[1;31m', nome, '\033[m')) # Variável "nome" em vermelho e negrito
+print('Olá, {}{}{}!'.format('\033[1;31m', nome, '\033[m'))  # Variável "nome" em vermelho e negrito
 
 cores = {
     'limpa': '\033[m',
@@ -59,4 +59,4 @@ cores = {
     'pretoebranco': '\033[7;30m'
 }
 
-print('Olá, {}{}{}!'.format(cores['amarelo'], nome, cores['limpa'])) # Variável "nome" em amarelo
+print('Olá, {}{}{}!'.format(cores['amarelo'], nome, cores['limpa']))  # Variável "nome" em amarelo

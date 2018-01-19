@@ -5,9 +5,6 @@ print('Prazer em te conhecer, {:20}!'.format(nome))  # Exibe o valor inserido co
 print('Prazer em te conhecer, {:>20}!'.format(nome))  # Exibe o valor inserido com 20 caracteres e alinhado à direita
 print('Prazer em te conhecer, {:<20}!'.format(nome))  # Exibe o valor inserido com 20 caracteres e alinhado à esquerda
 print('Prazer em te conhecer, {:^20}!'.format(nome))  # Exibe o valor inserido com 20 caracteres e alinhado no centro
-print('Prazer em te conhecer, {:=^20}!'.format(nome))
-""" Exibe o valor inserido com 20 caracteres, alinhado no centro
-e com o sinal de "=" preenchendo os espaços vazios """
 print('Prazer em te conhecer, {:*^20}!'.format(nome))
 """ Exibe o valor inserido com 20 caracteres, alinhado no centro
 e com o sinal de "*" preenchendo os espaços vazios """
