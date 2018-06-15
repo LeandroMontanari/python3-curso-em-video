@@ -11,7 +11,7 @@ Exemplo de Tupla (Variável Composta):
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
 Índices:      [0]        [1]      [2]      [3]
 
-NOTA 1: As tuplas são IMUTÁVEIS!
+NOTA 1: As Tuplas são IMUTÁVEIS!
 
 NOTA 2: Tuplas são identificadas por "()" (parênteses). Nas versões mais atuais do Python
 nem é necessário colocar entre "()", mas facilita para melhor entendimento do código.
