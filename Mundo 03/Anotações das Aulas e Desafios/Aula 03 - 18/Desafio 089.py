@@ -1,5 +1,9 @@
 """
-DESAFIO 089
+DESAFIO 089: Boletim com Listas Compostas
+
+Crie um programa que leia nome e duas notas de vários alunos e guarde tudo em uma lista composta.
+No final, mostre um boletim contendo a média de cada um e permita que o usuário possa mostrar as
+notas de cada aluno individualmente.
 """
 alunos = list()
 div1, div2, div3 = '-=' * 13, '-' * 26, '-' * 35
