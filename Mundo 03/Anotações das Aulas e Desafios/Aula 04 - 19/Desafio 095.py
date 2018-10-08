@@ -1,5 +1,8 @@
 """
-DESAFIO 095
+DESAFIO 095: Aprimorando os Dicionários
+
+Aprimore o DESAFIO 093 para que ele funcione com vários jogadores, incluindo
+um sistema de visualização de detalhes do aproveitamento de cada jogador.
 """
 div = '-' * 35
 div2 = '-' * 44
