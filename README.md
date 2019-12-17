@@ -9,3 +9,5 @@ Mundo 2 - Estruturas de Controle: https://www.youtube.com/playlist?list=PLHz_Are
 Mundo 3 - Estruturas Compostas: https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH
 
 Download do Python 3: https://www.python.org/downloads/
+
+Download PyCharm: https://www.jetbrains.com/pycharm/download/
