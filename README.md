@@ -2,7 +2,7 @@
 
 ### Anotações das Aulas, Desafios Resolvidos e Exercícios Corrigidos
 
-Mundo 1 - Fundamentos: http://www.cursoemvideo.com/course/curso-python-3/
+Mundo 1 - Fundamentos: https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
 
 Mundo 2 - Estruturas de Controle: https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye
 
